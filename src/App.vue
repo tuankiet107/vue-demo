@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <router-link :to="{ name: 'home' }">Home</router-link>
-    <router-link to="/login">Login</router-link>
-    <router-link to="/register">Register</router-link>
+    <router-link to="/profiles">Profiles</router-link>
+    <!-- <router-link to="/profiles/:id"></router-link> -->
     <router-view></router-view>
   </div>
 </template>
